@@ -1,0 +1,139 @@
+.fuente1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+
+}
+.fuente2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.fuente3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    padding-bottom: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    flex-basis:20%;
+
+
+}
+
+.lista-contactos{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.tarjeta-contacto{
+    display: flex;
+
+}
+
+.perfil{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid #bbb1d1;
+}
+
+.estado-perfil-principal{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.estado-perfil{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: auto;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: solid #bbb1d1;
+}
+
+.foto-perfil{
+    width: 45px;
+    height: auto;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+
+.foto-perfil-principal{
+    width: 35px;
+    height: auto;
+    border-radius: 50%;
+    padding-right: 10px;
+
+}
+
+.info-perfil{
+    display: flex;
+    flex-direction: column;
+}
+
+.configuracion-perfil{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.nuevo-chat{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: solid #bbb1d1;
+
+
+}
+    
+.boton{
+    padding: 10px 20px;
+    background-color: #A491D2;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.boton2{
+    cursor: pointer;
+    padding-right: 10px;
+
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+    padding-bottom: 30px;
+
+}
+
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex-basis:80%;
+    background-color: #E8Ebe4;
+    justify-content: center;
+    align-items: center;
+
+}
+
+  
